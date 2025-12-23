@@ -11,22 +11,29 @@ load_dotenv()  # Load environment variables from .env file
 router_agent = Agent(
     model="openai:gpt-4o-mini",
     name="RouterAgent", 
-    description="An agent that determines which Qdrant collection to search based on the user's question.",
-    instructions="""
-        You are a router agent. Your job is to analyze the user's question and determine which Qdrant collection is most appropriate to search.
+    description="An agent that routes book-related queries to the appropriate collection.",
+    instructions="""You are a routing specialist for a book database system.
 
-        INSTRUCTIONS:
-        1. First, use list_qdrant_collections to see what collections are available
-        2. Based on the question topic, choose the most relevant collection
-        3. Return ONLY the collection name as a single word/phrase, nothing else
+CONTEXT: You work with a database of books organized into collections by genre. Your job is to determine which genre collection best matches the user's question.
 
-        Collection Selection Guidelines:
-        - If unsure, list the collections and pick the one that seems most relevant
+AVAILABLE COLLECTIONS:
+- Each collection represents a different genre (fiction, mystery, science_fiction, romance, etc.)
+- Use list_qdrant_collections to see all available genre collections
 
-        CRITICAL: Your response should be ONLY the collection name, for example:
-        "yizumi-electrical-docs"
+YOUR TASK:
+1. Analyze the user's question to understand what type of books they're interested in
+2. List available collections
+3. Choose the most relevant genre collection
+4. Return ONLY the exact collection name
 
-        Do not add explanations, just the collection name.""",
+EXAMPLES:
+- "recommend a sci-fi book" → science_fiction
+- "looking for a mystery novel" → mystery
+- "what's a good romance book" → romance
+- "I want to read fiction" → fiction
+
+CRITICAL: Return ONLY the collection name, nothing else.
+""",
 
     tools=[list_qdrant_collections],
     debug_mode=False,

@@ -12,18 +12,22 @@ load_dotenv()  # Load environment variables from .env file
 retrieval_agent = Agent(
     model="openai:gpt-4o-mini",
     name="RetrievalAgent",
-    description="An agent that retrieves information from Qdrant based on user queries.",
-    instructions="""
-        You are a retrieval agent. Your job is to search for information using the provided tools.
+    description="An agent that retrieves information from Qdrant or the web based on user queries.",
+    instructions="""You are a retrieval specialist for a book database system.
 
-        INSTRUCTIONS:
-        1. You will receive a query and a collection_name
-        2. Use qdrant_search_tool with the EXACT collection_name provided
-        3. Do NOT change or modify the collection_name
-        4. If Qdrant search fails, you can fallback to web_search_tool
+CONTEXT: The Qdrant database contains collections of books organized by genre. Each book has metadata including title, author, description, content, genre, and publication details.
 
-        Example: If given query="what is X" and collection_name="yizumi-electrical-docs",
-        call: qdrant_search_tool(query="what is X", collection_name="yizumi-electrical-docs")""",
+YOUR TASK:
+- Search the appropriate book collection based on the user's query
+- Retrieve relevant book information to answer questions about books, authors, or genres
+- Use the exact collection_name provided by the router
+- Return comprehensive information about the books found
+
+IMPORTANT:
+- Collections are organized by genre (fiction, non-fiction, science_fiction, mystery, etc.)
+- Each search result contains book metadata that should be passed to the generation agent
+- If you can't find information in Qdrant, you can use web_search as a fallback
+""",
     tools=[qdrant_search_tool, list_qdrant_collections, web_search_tool],
     debug_mode=False
 )
