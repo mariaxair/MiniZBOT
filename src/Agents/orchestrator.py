@@ -1,26 +1,44 @@
 from .retrievalAgent import retrieval_agent
 from .generatingAgent import generating_agent
-
+from .routerAgent import router_agent
 
 class Orchestrator:
     def __init__(self):
+        self.router_agent = router_agent
         self.retrieval_agent = retrieval_agent
         self.generation_agent = generating_agent
 
     def run(self, user_question: str) -> str:
+        # 0️⃣ Routing - Determine which collection to use
+        print("\n🧭 Determining best collection...")
+        routing_response = self.router_agent.run(f"Which collection should I search for this question: {user_question}")
+        collection_name = routing_response.content.strip()
+        print(f"✅ Router selected collection: {collection_name}")
+        
         # 1️⃣ Retrieval
-        retrieval_response = self.retrieval_agent.run({"query": user_question})
+        print(f"\n📥 Retrieving from {collection_name}...")
+        retrieval_prompt = f"""Search for information to answer this question.
+        
+Collection to use: {collection_name}
+Question: {user_question}
+
+Use qdrant_search_tool(query="{user_question}", collection_name="{collection_name}")
+"""
+        retrieval_response = self.retrieval_agent.run(retrieval_prompt)
         context = retrieval_response.content
 
         # 2️⃣ Generation
-        final_prompt = f"""
-            Use the following retrieved information to answer the question.
+        print("\n✍️ Generating answer...")
+        generating_prompt = f"""
+Use the following retrieved information to answer the question.
 
-            Context:
-            {context}
+Context:
+{context}
 
-            Question:
-            {user_question}
-            """
-        final_response = self.generation_agent.run(final_prompt)
+Question:
+{user_question}
+
+Provide a clear, concise answer based on the context.
+"""
+        final_response = self.generation_agent.run(generating_prompt)
         return final_response.content
