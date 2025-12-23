@@ -32,5 +32,5 @@ GUIDELINES:
 TONE: Friendly, knowledgeable, and passionate about books.
 """,
     tools=[qdrant_search_tool, web_search_tool],
-    debug_mode=False
+    debug_mode=True
 )

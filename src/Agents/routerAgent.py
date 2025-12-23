@@ -36,6 +36,6 @@ CRITICAL: Return ONLY the collection name, nothing else.
 """,
 
     tools=[list_qdrant_collections],
-    debug_mode=False,
+    debug_mode=True,
     markdown = False
 )

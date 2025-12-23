@@ -29,5 +29,5 @@ IMPORTANT:
 - If you can't find information in Qdrant, you can use web_search as a fallback
 """,
     tools=[qdrant_search_tool, list_qdrant_collections, web_search_tool],
-    debug_mode=False
+    debug_mode=True
 )
