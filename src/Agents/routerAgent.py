@@ -29,6 +29,6 @@ router_agent = Agent(
         Do not add explanations, just the collection name.""",
 
     tools=[list_qdrant_collections],
-    debug_mode=True,
+    debug_mode=False,
     markdown = False
 )

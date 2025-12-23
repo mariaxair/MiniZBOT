@@ -1,0 +1,503 @@
+[
+  {
+        "id": 1,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publication_year": 1960,
+        "genre": ["Fiction", "Classic"],
+        "description": "A classic novel depicting racial injustice in the American South.",
+        "cover_image": "https://fakeimg.pl/667x1000/C72136/?text=To%20Kill%20a%20Mockingbird",
+        "content": "Set in the 1930s in the racially segregated town of Maycomb, Alabama, 'To Kill a Mockingbird' explores profound themes of racial injustice, moral growth, and empathy. The story follows young Scout Finch and her brother Jem as they navigate childhood, guided by their father, Atticus Finch, a principled lawyer defending a black man falsely accused of raping a white woman. Through Scout's eyes, readers experience the tension, prejudice, and complexities of human behavior in a society constrained by deep-seated racism and traditional social norms. The novel emphasizes the importance of standing up for justice and understanding others' perspectives, making it a timeless exploration of morality and compassion."
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "publication_year": 1949,
+        "genre": ["Dystopian", "Science Fiction"],
+        "description": "A dystopian novel portraying a totalitarian society.",
+        "cover_image": "https://fakeimg.pl/667x1000/4156AC/?text=1984",
+        "content": "'1984' presents a chilling depiction of a totalitarian society where the state exerts absolute control over every aspect of individual life. The protagonist, Winston Smith, works at the Ministry of Truth, altering historical records to conform to the Party's narrative. Constant surveillance, propaganda, and thought policing characterize the oppressive regime led by Big Brother. Orwell's novel delves into themes of personal freedom, truth manipulation, psychological control, and rebellion against authoritarianism. It explores how fear, misinformation, and strict societal conformity can erode individuality, moral integrity, and human connection, making it a cautionary tale about the dangers of unchecked political power."
+    },
+    {
+        "id": 3,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publication_year": 1813,
+        "genre": ["Classic", "Romance"],
+        "description": "A classic novel exploring themes of love, marriage, and social norms.",
+        "cover_image": "https://fakeimg.pl/667x1000/F9B8BF/?text=Pride%20and%20Prejudice",
+        "content": "'Pride and Prejudice' is a romantic and social novel set in early 19th-century England, following the intelligent and spirited Elizabeth Bennet as she navigates societal pressures, familial expectations, and the complexities of love. The novel examines themes of pride, prejudice, and social mobility, particularly through Elizabeth's evolving relationship with the enigmatic and wealthy Mr. Darcy. Austen’s keen social commentary highlights the roles and limitations of women, class dynamics, and the pursuit of personal happiness within rigid societal norms. Richly drawn characters, witty dialogue, and intricate social interactions make this novel a timeless exploration of human relationships and self-discovery."
+    },
+    {
+        "id": 4,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publication_year": 1925,
+        "genre": ["Fiction", "Classic"],
+        "description": "A tale of the American Dream, wealth, and love during the Roaring Twenties.",
+        "cover_image": "https://fakeimg.pl/667x1000/5CB3B8/?text=The%20Great%20Gatsby",
+        "content": "'The Great Gatsby' chronicles the lavish life of Jay Gatsby and his unrelenting pursuit of the American Dream and his lost love, Daisy Buchanan. Narrated by Nick Carraway, the novel explores the glitz and glamour of the 1920s, as well as the moral decay, greed, and superficiality underlying wealth and social status. Gatsby’s obsession with recapturing the past and attaining an idealized version of love exposes the fragility of dreams and the harsh reality of social stratification. Through vivid portrayals of parties, extravagance, and heartbreak, Fitzgerald examines themes of ambition, love, illusion, and the elusive nature of happiness in a society obsessed with status and material success."
+    },
+    {
+        "id": 5,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "publication_year": 1851,
+        "genre": ["Fiction", "Adventure"],
+        "description": "The epic tale of Captain Ahab's obsession with the white whale.",
+        "cover_image": "https://fakeimg.pl/667x1000/E7BD13/?text=Moby-Dick",
+        "content": "'Moby-Dick' tells the story of Captain Ahab’s relentless quest to hunt the great white whale that maimed him. Narrated by Ishmael, the novel is an intricate exploration of obsession, revenge, and the limits of human knowledge. The journey aboard the Pequod provides vivid depictions of whaling life, seafaring, and the natural world, interwoven with philosophical reflections on fate, existence, and the struggle between man and nature. Ahab’s monomaniacal pursuit becomes a metaphor for destructive obsession, as the crew faces moral and existential dilemmas. Melville combines adventure, allegory, and detailed naturalistic observations to create a timeless meditation on the human condition and the destructive nature of obsession."
+    },
+    {
+        "id": 6,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "publication_year": 1954,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "An epic fantasy saga about the quest to destroy the One Ring.",
+        "cover_image": "https://fakeimg.pl/667x1000/3B6628/?text=The%20Lord%20of%20the%20Rings",
+        "content": "'The Lord of the Rings' is an epic high-fantasy saga that follows Frodo Baggins and a fellowship of diverse characters on a perilous journey to destroy the One Ring, a powerful artifact capable of enslaving the world. Set in Middle-earth, Tolkien’s richly detailed universe is filled with mythical races, complex histories, and moral conflicts. The narrative explores themes of courage, friendship, sacrifice, power, and the struggle between good and evil. Characters face daunting challenges, from physical battles to inner struggles with temptation and despair. The story combines adventure, myth, and philosophy, emphasizing that heroism often comes from ordinary individuals confronting extraordinary circumstances."
+    },
+    {
+        "id": 7,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publication_year": 1951,
+        "genre": ["Fiction", "Coming-of-age"],
+        "description": "A classic coming-of-age novel following Holden Caulfield's journey.",
+        "cover_image": "https://fakeimg.pl/667x1000/A9E6AC/?text=The%20Catcher%20in%20the%20Rye",
+        "content": "'The Catcher in the Rye' follows sixteen-year-old Holden Caulfield as he navigates alienation, grief, and the struggles of adolescence in post-World War II New York City. After being expelled from prep school, Holden wanders the city, encountering various people and situations that highlight his disillusionment with the adult world and its perceived hypocrisy. The novel delves into themes of identity, innocence, societal expectations, and the tension between childhood and adulthood. Holden’s candid, introspective narration provides insight into teenage confusion and rebellion, portraying the emotional turbulence and search for authenticity that define coming-of-age experiences."
+    },
+    {
+        "id": 8,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publication_year": 1937,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "The prequel to The Lord of the Rings, following Bilbo Baggins' journey.",
+        "cover_image": "https://fakeimg.pl/667x1000/D70666/?text=The%20Hobbit",
+        "content": "'The Hobbit' recounts the unexpected journey of Bilbo Baggins, a peaceful hobbit who is drawn into a perilous adventure with a group of dwarves to reclaim their homeland from the dragon Smaug. Along the way, Bilbo confronts trolls, goblins, giant spiders, and encounters the mysterious creature Gollum, from whom he acquires a magical ring that becomes central to future events in Middle-earth. The novel explores courage, self-discovery, and the triumph of cleverness and moral integrity over brute strength. Tolkien’s vivid world-building, imaginative creatures, and rich storytelling create a captivating tale of growth, heroism, and the allure of adventure."
+    },
+    {
+        "id": 9,
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel Garcia Marquez",
+        "publication_year": 1967,
+        "genre": ["Magical Realism", "Literary Fiction"],
+        "description": "A multi-generational saga of the Buendía family in the fictional town of Macondo.",
+        "cover_image": "https://fakeimg.pl/667x1000/743B87/?text=One%20Hundred%20Years%20of%20Solitude",
+        "content": "'One Hundred Years of Solitude' is a landmark work of magical realism chronicling the rise and fall of the Buendía family in the fictional town of Macondo. Over seven generations, the novel explores themes of love, solitude, fate, and the cyclical nature of history. Marquez intertwines the fantastical with the ordinary, creating a narrative where extraordinary events are treated as commonplace, reflecting the surreal quality of memory, myth, and human experience. The novel examines human ambition, desire, and the persistence of family legacy, offering a profound meditation on the passage of time, inevitability, and the interplay between reality and imagination."
+    },
+    {
+        "id": 10,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "publication_year": 1869,
+        "genre": ["Historical Fiction", "Epic"],
+        "description": "A monumental work depicting the events of Russian society during the Napoleonic era.",
+        "cover_image": "https://fakeimg.pl/667x1000/38239B/?text=War%20and%20Peace",
+        "content": "'War and Peace' is an epic novel chronicling the lives of several aristocratic families against the backdrop of the Napoleonic Wars. Tolstoy explores history, philosophy, and human nature through detailed portrayals of characters such as Pierre Bezukhov, Natasha Rostov, and Prince Andrei Bolkonsky. Themes of love, fate, honor, and the impact of war on society and individuals are central. Tolstoy blends personal narratives with historical events, analyzing the interplay between individual agency and the forces of history. The novel provides a rich tapestry of Russian society, offering profound insights into the complexity of life, the inevitability of change, and the resilience of the human spirit."
+    },
+    {
+        "id": 11,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publication_year": "8th century BCE",
+        "genre": ["Epic", "Mythology"],
+        "description": "An ancient Greek epic poem recounting Odysseus' ten-year journey home after the Trojan War.",
+        "cover_image": "https://fakeimg.pl/667x1000/37612C/?text=The%20Odyssey",
+        "content": "'The Odyssey' is an epic Greek poem that follows Odysseus’ perilous journey home to Ithaca after the Trojan War. Over ten years, he encounters mythical creatures, divine beings, and overwhelming natural obstacles. Themes of cunning, loyalty, perseverance, and the human struggle against fate are central, as Odysseus must rely on his wit and resilience to overcome challenges. The poem also explores the significance of homecoming, family bonds, and hospitality. Rich in mythological symbolism and heroic adventure, 'The Odyssey' remains a foundational text of Western literature, offering timeless insights into human courage, ingenuity, and moral complexity."
+    },
+    {
+        "id": 12,
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "publication_year": "1320",
+        "genre": ["Epic", "Poetry"],
+        "description": "An epic poem that follows the journey of the soul through Hell, Purgatory, and Heaven.",
+        "cover_image": "https://fakeimg.pl/667x1000/62FC0F/?text=The%20Divine%20Comedy",
+        "content": "'The Divine Comedy' is an epic poem tracing Dante’s allegorical journey through the realms of the afterlife: Inferno, Purgatorio, and Paradiso. Guided first by Virgil and later by Beatrice, Dante confronts the consequences of sin, the process of purification, and the rewards of divine grace. The work examines morality, justice, and the soul’s pursuit of God, blending rich symbolism, theology, and philosophical reflection. Each realm presents vivid depictions of human virtues and vices, offering lessons about human nature, redemption, and the ultimate goal of spiritual enlightenment. Dante’s masterpiece combines poetic artistry with profound exploration of morality, faith, and the eternal struggle for spiritual fulfillment."
+    },
+    {
+        "id": 13,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "publication_year": 1880,
+        "genre": ["Classic", "Philosophical Fiction"],
+        "description": "A complex novel exploring themes of spirituality, morality, and human nature.",
+        "cover_image": "https://fakeimg.pl/667x1000/076215/?text=The%20Brothers%20Karamazov",
+        "content": "'The Brothers Karamazov' examines the moral, spiritual, and psychological struggles of the Karamazov family, particularly the three brothers—Dmitri, Ivan, and Alyosha. Set in 19th-century Russia, the novel explores themes of faith, doubt, free will, and ethical responsibility. Through the interwoven personal and philosophical conflicts, Dostoevsky delves into the nature of good and evil, the complexity of human motives, and the search for meaning and redemption. The narrative combines intense emotional drama with profound philosophical reflection, making it a cornerstone of literary and ethical inquiry into human nature."
+    },
+    {
+        "id": 14,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publication_year": 1866,
+        "genre": ["Classic", "Psychological Fiction"],
+        "description": "A psychological thriller revolving around guilt, conscience, and redemption.",
+        "cover_image": "https://fakeimg.pl/667x1000/698825/?text=Crime%20and%20Punishment",
+        "content": "'Crime and Punishment' follows Raskolnikov, a young intellectual in St. Petersburg who commits murder and grapples with overwhelming guilt and moral dilemmas. Dostoevsky explores the psychology of crime, conscience, and redemption, depicting the internal torment and rationalizations that accompany transgression. Themes of justice, morality, suffering, and the possibility of spiritual and moral regeneration permeate the narrative. The novel presents a deep psychological study of human behavior, the effects of isolation, and the redemptive power of compassion and moral awakening, making it a profound exploration of ethical and existential questions."
+    },
+    {
+        "id": 15,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "publication_year": 1890,
+        "genre": ["Gothic", "Philosophical Fiction"],
+        "description": "A novel about a man whose portrait ages while he retains his youth and beauty.",
+        "cover_image": "https://fakeimg.pl/667x1000/587F01/?text=The%20Picture%20of%20Dorian%20Gray",
+        "content": "'The Picture of Dorian Gray' tells the story of Dorian Gray, a man who remains eternally youthful while his portrait bears the marks of his moral corruption. The novel explores themes of vanity, decadence, morality, and the consequences of a life devoted to hedonism. Influenced by Lord Henry, Dorian pursues pleasure without accountability, gradually descending into moral decay. Wilde’s narrative examines the tension between appearance and reality, the corrupting influence of desire, and the ethical implications of indulgence. Through Gothic elements, philosophical reflections, and psychological insight, the novel critiques superficiality, self-indulgence, and the human fascination with eternal beauty."
+    },
+
+    {
+        "id": 16,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publication_year": 1932,
+        "genre": ["Dystopian", "Science Fiction"],
+        "description": "A dystopian vision of a future society obsessed with pleasure and conformity.",
+        "cover_image": "https://fakeimg.pl/667x1000/5BAF76/?text=Brave%20New%20World",
+        "content": "'Brave New World' imagines a future society governed by technological control, social conditioning, and a relentless pursuit of pleasure. Individuality, family bonds, and traditional morality are suppressed in favor of stability, consumerism, and hedonism. The story explores characters such as Bernard Marx and John the Savage, who grapple with existential dissatisfaction and alienation in a world devoid of authentic emotion and personal freedom. Huxley examines the tension between happiness and freedom, the consequences of total societal control, and the ethical dilemmas arising from scientific and technological advancements. The novel remains a profound reflection on human nature, conformity, and the cost of sacrificing individuality for comfort and order."
+    },
+    {
+        "id": 17,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "publication_year": 1844,
+        "genre": ["Adventure", "Historical Fiction"],
+        "description": "An adventure novel of revenge, love, and redemption set in the early 19th century.",
+        "cover_image": "https://fakeimg.pl/667x1000/EE811D/?text=The%20Count%20of%20Monte%20Cristo",
+        "content": "'The Count of Monte Cristo' tells the story of Edmond Dantès, a young sailor wrongfully imprisoned by envious rivals. After escaping from the Château d’If and discovering a hidden treasure, Dantès reinvents himself as the wealthy and mysterious Count of Monte Cristo. Using his newfound fortune and intellect, he meticulously enacts revenge against those who betrayed him while navigating complex relationships of love, loyalty, and justice. The novel examines themes of justice versus vengeance, human ambition, forgiveness, and moral responsibility. Dumas’ narrative combines adventure, historical detail, and psychological insight, offering a sweeping exploration of resilience, the consequences of betrayal, and the transformative power of knowledge and opportunity."
+    },
+    {
+        "id": 18,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publication_year": 1877,
+        "genre": ["Classic", "Romance"],
+        "description": "A tragic love story set against the backdrop of Russian high society.",
+        "cover_image": "https://fakeimg.pl/667x1000/86E833/?text=Anna%20Karenina",
+        "content": "'Anna Karenina' explores love, passion, and societal expectations in 19th-century Russian aristocracy. The story follows Anna, who enters a doomed affair with Count Vronsky, challenging conventions and facing moral condemnation. Parallel narratives explore themes of family, marriage, and the search for personal fulfillment. Tolstoy examines the tension between individual desire and social obligation, highlighting the consequences of defying societal norms. The novel intricately portrays psychological depth, moral dilemmas, and the impact of societal judgment, offering a nuanced exploration of love, fidelity, and human vulnerability in a rigid social hierarchy."
+    },
+    {
+        "id": 19,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "publication_year": 1988,
+        "genre": ["Fiction", "Philosophical"],
+        "description": "A philosophical novel about a shepherd boy's journey to find his personal legend.",
+        "cover_image": "https://fakeimg.pl/667x1000/FC6D85/?text=The%20Alchemist",
+        "content": "'The Alchemist' follows Santiago, a young shepherd from Spain, as he embarks on a journey to realize his 'Personal Legend'—the true purpose of his life. Guided by omens, encounters with mentors, and mystical experiences, Santiago learns lessons about courage, perseverance, and the interconnectedness of all things. The novel explores themes of destiny, self-discovery, and spiritual growth, emphasizing the importance of following one’s dreams and listening to the heart. Coelho’s philosophical narrative encourages reflection on the pursuit of fulfillment, the nature of obstacles, and the transformative power of belief and determination."
+    },
+    {
+        "id": 20,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publication_year": 1884,
+        "genre": ["Adventure", "Satire"],
+        "description": "A satirical novel following Huck Finn's journey down the Mississippi River.",
+        "cover_image": "https://fakeimg.pl/667x1000/5F9CCE/?text=The%20Adventures%20of%20Huckleberry%20Finn",
+        "content": "'The Adventures of Huckleberry Finn' recounts the journey of Huck Finn, a young boy escaping a restrictive and abusive home, and Jim, a runaway enslaved man, as they navigate the Mississippi River. Twain combines adventure with social critique, using satire to expose the hypocrisy, racism, and moral failings of 19th-century American society. The novel explores themes of freedom, friendship, ethical growth, and the tension between societal norms and personal conscience. Huck’s moral development and his questioning of entrenched social values provide a nuanced reflection on human nature, justice, and integrity, making it both a gripping adventure and a profound social commentary."
+    },
+    {
+        "id": 21,
+        "title": "The Iliad",
+        "author": "Homer",
+        "publication_year": "8th century BCE",
+        "genre": ["Epic", "Mythology"],
+        "description": "An ancient Greek epic poem about the Trojan War and the hero Achilles.",
+        "cover_image": "https://fakeimg.pl/667x1000/49BB7C/?text=The%20Iliad",
+        "content": "'The Iliad' is an epic poem that recounts events during the final weeks of the Trojan War, focusing on the wrath of Achilles and its consequences for the Greek army. Themes of heroism, honor, fate, mortality, and the capriciousness of the gods permeate the narrative. Through vivid battle scenes and personal conflicts, Homer explores the human experience of war, the clash between personal desire and duty, and the quest for glory and recognition. Rich in mythology, symbolism, and psychological insight, 'The Iliad' remains a foundational work of Western literature, illuminating the complexities of human emotion, valor, and the tragic cost of conflict."
+    },
+    {
+        "id": 22,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "publication_year": 1954,
+        "genre": ["Fantasy", "Adventure"],
+        "description": "A thrilling epic about the quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
+        "cover_image": "https://fakeimg.pl/667x1000/00361A/?text=The%20Lord%20of%20the%20Rings",
+        "content": "'The Lord of the Rings' follows Frodo Baggins and a fellowship of companions on a perilous mission to destroy the One Ring and thwart the dark lord Sauron’s conquest of Middle-earth. Filled with richly developed landscapes, cultures, and languages, Tolkien’s epic emphasizes themes of heroism, friendship, sacrifice, and the struggle between good and evil. Characters confront moral challenges, physical dangers, and inner temptations, illustrating courage, resilience, and the power of hope. The narrative combines adventure, myth, and philosophy, highlighting the capacity of ordinary individuals to influence extraordinary events and underscoring the enduring battle against corruption and tyranny."
+    },
+    {
+        "id": 23,
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "publication_year": 1605,
+        "genre": ["Classic", "Satire"],
+        "description": "A satirical novel about a deluded knight and his faithful squire, Sancho Panza.",
+        "cover_image": "https://fakeimg.pl/667x1000/2AB683/?text=Don%20Quixote",
+        "content": "'Don Quixote' tells the story of Alonso Quixano, a man who, obsessed with chivalric romances, becomes the self-styled knight Don Quixote, embarking on absurd quests accompanied by his practical squire, Sancho Panza. Cervantes uses satire to critique social conventions, outdated ideals, and human folly, blending humor with philosophical reflection. Themes of reality versus illusion, the pursuit of ideals, friendship, and the complexity of human behavior are central. Through comical misadventures and thoughtful interludes, the novel examines the tension between imagination and reality, the value of dreams, and the enduring impact of personal vision and moral aspiration."
+    },
+    {
+        "id": 24,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publication_year": 1818,
+        "genre": ["Gothic", "Science Fiction"],
+        "description": "A novel about the creation of a monster and the consequences of playing god.",
+        "cover_image": "https://fakeimg.pl/667x1000/516E68/?text=Frankenstein",
+        "content": "'Frankenstein' follows Victor Frankenstein, a scientist who creates a sentient being through unorthodox scientific experimentation. The creature, intelligent and sensitive, faces rejection and isolation, leading to tragedy and moral conflict. Shelley explores themes of ambition, ethical responsibility, the consequences of defying natural laws, and the search for identity and acceptance. The novel delves into human nature, the dangers of unchecked ambition, and the psychological and social consequences of isolation and prejudice. Combining Gothic horror with philosophical reflection, 'Frankenstein' remains a cautionary tale about the ethical limits of science and the responsibilities of creation."
+    },
+    {
+        "id": 25,
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll",
+        "publication_year": 1865,
+        "genre": ["Fantasy", "Children's Literature"],
+        "description": "A whimsical tale about a girl named Alice who falls into a magical world.",
+        "cover_image": "https://fakeimg.pl/667x1000/26D5CD/?text=Alice%27s%20Adventures%20in%20Wonderland",
+        "content": "'Alice's Adventures in Wonderland' follows young Alice as she falls down a rabbit hole into a fantastical world filled with peculiar creatures, absurd logic, and whimsical adventures. The narrative explores curiosity, imagination, and the nature of identity and perception. Carroll’s inventive wordplay, nonsensical episodes, and creative characters highlight the absurdity and unpredictability of the world while celebrating the wonder and challenges of childhood exploration. Themes of growth, adaptation, and questioning reality are interwoven with a playful, dreamlike narrative, making the story a timeless exploration of imagination, logic, and self-discovery."
+    },
+    {
+        "id": 26,
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "publication_year": 1943,
+        "genre": ["Fable", "Children's Literature"],
+        "description": "A philosophical novella about a young prince's journey through the universe.",
+        "cover_image": "https://fakeimg.pl/667x1000/8D23E6/?text=The%20Little%20Prince",
+        "content": "'The Little Prince' follows a young prince who travels from planet to planet, encountering a series of symbolic characters that illuminate the nature of human behavior, love, and responsibility. Through his encounters, the story reflects on innocence, imagination, friendship, and the deeper truths often overlooked by adults. Saint-Exupéry blends whimsical storytelling with philosophical reflection, exploring themes of empathy, the value of relationships, and the essence of what is truly important in life. The novella’s allegorical nature and lyrical narrative provide timeless lessons about human connection, curiosity, and the pursuit of understanding beyond appearances."
+    },
+    {
+        "id": 27,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "publication_year": 2005,
+        "genre": ["Historical Fiction", "War"],
+        "description": "A story of a girl living in Nazi Germany, narrated by Death.",
+        "cover_image": "https://fakeimg.pl/667x1000/A46943/?text=The%20Book%20Thief",
+        "content": "'The Book Thief' follows Liesel Meminger, a young girl living in Nazi Germany, who discovers the transformative power of books amidst the horrors of war. Narrated by Death, the novel explores themes of mortality, the human capacity for cruelty and kindness, the resilience of the human spirit, and the role of storytelling as a source of hope and resistance. Through Liesel’s relationships with her foster family, friends, and the Jewish refugee hidden in their basement, Zusak portrays courage, compassion, and the struggle to preserve humanity in a time of pervasive violence. The novel blends historical reality with lyrical narrative to offer a poignant reflection on love, loss, and the impact of words."
+    },
+    {
+        "id": 28,
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "publication_year": 1969,
+        "genre": ["Satire", "Science Fiction"],
+        "description": "An anti-war novel that mixes science fiction and dark humor.",
+        "cover_image": "https://fakeimg.pl/667x1000/C4C051/?text=Slaughterhouse-Five",
+        "content": "'Slaughterhouse-Five' follows Billy Pilgrim, who becomes 'unstuck in time' and experiences moments from his life, including his service in World War II and his abduction by aliens. Vonnegut uses dark humor, satire, and science fiction elements to critique war, human absurdity, and fatalism. Themes of trauma, free will, death, and the cyclical nature of history are central. The novel blends anti-war sentiment with philosophical reflection on the inevitability of suffering and the randomness of life, emphasizing the absurdity and tragedy of human conflict while exploring resilience, memory, and the human condition."
+    },
+    {
+        "id": 29,
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "publication_year": 1939,
+        "genre": ["Historical Fiction", "Social Commentary"],
+        "description": "A novel about the plight of migrant workers during the Great Depression.",
+        "cover_image": "https://fakeimg.pl/667x1000/047D2E/?text=The%20Grapes%20of%20Wrath",
+        "content": "'The Grapes of Wrath' follows the Joad family as they migrate from Oklahoma to California during the Great Depression, seeking work and a better life. Steinbeck vividly depicts the economic hardship, social injustice, and resilience of ordinary people facing systemic oppression. Themes of poverty, family, dignity, exploitation, and collective struggle are central, highlighting the human cost of industrial and economic forces. Through rich characterization, social commentary, and symbolism, the novel portrays both the despair and hope of individuals striving to survive and maintain humanity in a harsh and indifferent society."
+    },
+    {
+        "id": 30,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "publication_year": 1953,
+        "genre": ["Dystopian", "Science Fiction"],
+        "description": "A dystopian novel depicting a future society where books are banned.",
+        "cover_image": "https://fakeimg.pl/667x1000/EF0487/?text=Fahrenheit%20451",
+        "content": "'Fahrenheit 451' presents a future society where books are banned, and 'firemen' are tasked with burning any that are found. The protagonist, Guy Montag, begins to question the oppressive system and the superficial, controlled lives of citizens. Bradbury explores themes of censorship, knowledge versus ignorance, conformity, and the power of literature to awaken critical thought. Montag’s journey from passive acceptance to active resistance reflects the struggle for intellectual freedom and personal identity. The novel serves as a cautionary tale about the consequences of suppressing ideas, promoting mass conformity, and neglecting the critical role of art, literature, and independent thought in a healthy society."
+    },
+    {
+        "id": 31,
+        "title": "The Lord of the Flies",
+        "author": "William Golding",
+        "publication_year": 1954,
+        "genre": ["Dystopian", "Psychological Fiction"],
+        "description": "A novel about a group of British boys stranded on an uninhabited island.",
+        "cover_image": "https://fakeimg.pl/667x1000/9D36B1/?text=The%20Lord%20of%20the%20Flies",
+        "content": "'The Lord of the Flies' explores the descent into savagery of a group of British boys stranded on a deserted island. Without adult supervision, their attempts to establish order collapse, leading to fear, violence, and tribalism. Golding examines human nature, power, morality, and the thin veneer of civilization. Through characters such as Ralph, Piggy, and Jack, the novel highlights conflict between rationality and primal instinct, the struggle for leadership, and the consequences of unchecked aggression. It serves as a chilling allegory of societal breakdown, the darkness within humanity, and the fragility of social structures."
+    },
+    {
+        "id": 32,
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "publication_year": 1979,
+        "genre": ["Science Fiction", "Comedy"],
+        "description": "A comedic science fiction series about the misadventures of Arthur Dent.",
+        "cover_image": "https://fakeimg.pl/667x1000/4AFD5F/?text=The%20Hitchhiker%27s%20Guide%20to%20the%20Galaxy",
+        "content": "'The Hitchhiker's Guide to the Galaxy' follows Arthur Dent, an ordinary human, who is swept off Earth just before its destruction by a bureaucratic alien race. Joined by eccentric characters like Ford Prefect, Zaphod Beeblebrox, and Marvin the Paranoid Android, Arthur navigates a universe filled with absurdity, satire, and improbable events. Adams blends science fiction with humor and philosophical reflections, exploring themes of meaning, randomness, bureaucracy, and human folly. The novel’s wit, inventive storytelling, and whimsical critique of life, the universe, and everything make it both entertaining and thought-provoking."
+    },
+    {
+        "id": 33,
+        "title": "A Tale of Two Cities",
+        "author": "Charles Dickens",
+        "publication_year": 1859,
+        "genre": ["Historical Fiction", "Classic"],
+        "description": "A historical novel set during the French Revolution, exploring themes of sacrifice and resurrection.",
+        "cover_image": "https://fakeimg.pl/667x1000/00AAA4/?text=A%20Tale%20of%20Two%20Cities",
+        "content": "'A Tale of Two Cities' is set in London and Paris during the tumultuous years leading up to and during the French Revolution. The narrative follows characters such as Charles Darnay and Sydney Carton as they navigate love, loyalty, and political upheaval. Dickens examines themes of sacrifice, redemption, injustice, and social revolution. Carton’s ultimate act of self-sacrifice epitomizes moral courage and the transformative power of love. Through intricate plotlines and vivid depictions of societal struggle, the novel explores the consequences of oppression, the hope for renewal, and the human capacity for compassion and heroism even amidst chaos."
+    },
+    {
+        "id": 34,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "publication_year": 1950,
+        "genre": ["Fantasy", "Children's Literature"],
+        "description": "A series of fantasy novels set in the magical land of Narnia.",
+        "cover_image": "https://fakeimg.pl/667x1000/B50272/?text=The%20Chronicles%20of%20Narnia",
+        "content": "'The Chronicles of Narnia' is a seven-book fantasy series following children who discover the magical land of Narnia. Guided by the wise lion Aslan, the characters encounter mythical creatures, epic battles, and moral challenges. Lewis explores themes of good versus evil, courage, faith, redemption, and the journey toward personal growth. Through rich allegory and imaginative world-building, the series emphasizes moral and ethical lessons while captivating readers with adventure, magic, and the power of imagination. Each story combines fantastical elements with profound insights into character, virtue, and the consequences of choices."
+    },
+    {
+        "id": 35,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "publication_year": 1985,
+        "genre": ["Dystopian", "Feminist Fiction"],
+        "description": "A dystopian novel set in a totalitarian society where women are subjugated.",
+        "cover_image": "https://fakeimg.pl/667x1000/9363EA/?text=The%20Handmaid%27s%20Tale",
+        "content": "'The Handmaid's Tale' portrays a theocratic, totalitarian society called Gilead, where women are stripped of rights and forced into reproductive servitude. The protagonist, Offred, navigates oppression, surveillance, and limited agency while struggling to preserve her identity and autonomy. Atwood examines themes of gender oppression, power, resistance, and the manipulation of religion and ideology. The novel critiques societal structures that exploit vulnerability and control reproduction, exploring the psychological and moral impact of systemic subjugation. It remains a powerful reflection on autonomy, human dignity, and the resilience of hope and defiance in the face of tyranny."
+    },
+    {
+        "id": 36,
+        "title": "The Name of the Rose",
+        "author": "Umberto Eco",
+        "publication_year": 1980,
+        "genre": ["Historical Fiction", "Mystery"],
+        "description": "A medieval mystery novel set in an Italian monastery.",
+        "cover_image": "https://fakeimg.pl/667x1000/CE0582/?text=The%20Name%20of%20the%20Rose",
+        "content": "'The Name of the Rose' is a historical mystery set in a 14th-century Italian monastery. Franciscan friar William of Baskerville investigates a series of mysterious deaths, using logic, observation, and deductive reasoning. Eco explores themes of knowledge, faith, heresy, and the power of books in medieval society. The novel blends historical detail, semiotics, and intellectual intrigue with suspenseful narrative. Through the interplay of religion, politics, and philosophy, it examines the tension between reason and dogma, illuminating the complexities of belief, human curiosity, and the search for truth."
+    },
+    {
+        "id": 37,
+        "title": "The Trial",
+        "author": "Franz Kafka",
+        "publication_year": 1925,
+        "genre": ["Absurdist Fiction", "Existential"],
+        "description": "A surreal novel exploring themes of guilt, law, and justice.",
+        "cover_image": "https://fakeimg.pl/667x1000/583721/?text=The%20Trial",
+        "content": "'The Trial' follows Josef K., who is arrested and prosecuted by a mysterious and inaccessible authority for a crime that is never explained. Kafka delves into themes of bureaucracy, guilt, alienation, and existential anxiety. The novel examines the absurdity and opacity of legal systems, the loss of individual agency, and the psychological toll of arbitrary authority. Through surreal and oppressive scenarios, Kafka portrays the tension between human morality, societal rules, and the struggle to find meaning in an incomprehensible world, making it a landmark in existential and absurdist literature."
+    },
+    {
+        "id": 38,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "publication_year": 2003,
+        "genre": ["Historical Fiction", "Drama"],
+        "description": "A novel about friendship, redemption, and the impact of war in Afghanistan.",
+        "cover_image": "https://fakeimg.pl/667x1000/1A8A97/?text=The%20Kite%20Runner",
+        "content": "'The Kite Runner' tells the story of Amir, a boy from Kabul, whose betrayal of his childhood friend Hassan haunts him into adulthood. Set against the backdrop of political upheaval and war in Afghanistan, the novel explores themes of friendship, guilt, redemption, and the lingering impact of trauma. Hosseini examines familial relationships, personal responsibility, and the possibility of atonement. Through rich characterization and vivid settings, the novel portrays the human capacity for both cruelty and compassion, emphasizing the transformative power of courage, loyalty, and reconciliation."
+    },
+    {
+        "id": 39,
+        "title": "The Pillars of the Earth",
+        "author": "Ken Follett",
+        "publication_year": 1989,
+        "genre": ["Historical Fiction", "Adventure"],
+        "description": "An epic historical novel set in 12th-century England, centered around the construction of a cathedral.",
+        "cover_image": "https://fakeimg.pl/667x1000/7A9EAA/?text=The%20Pillars%20of%20the%20Earth",
+        "content": "'The Pillars of the Earth' follows the intertwined lives of builders, clergy, and nobility in 12th-century England during the construction of a grand cathedral. Follett explores ambition, love, rivalry, and the struggle for power, highlighting the social, political, and religious dynamics of the time. The novel examines human resilience, craftsmanship, and the drive to create lasting beauty and purpose. Through richly developed characters and detailed historical settings, it portrays the intersection of personal desires, moral dilemmas, and societal pressures, offering a compelling exploration of human perseverance and creativity."
+    },
+    {
+        "id": 40,
+        "title": "The Shadow of the Wind",
+        "author": "Carlos Ruiz Zafón",
+        "publication_year": 2001,
+        "genre": ["Mystery", "Gothic"],
+        "description": "A mystery novel set in post-war Barcelona, revolving around a forgotten book and its author.",
+        "cover_image": "https://fakeimg.pl/667x1000/4A9361/?text=The%20Shadow%20of%20the%20Wind",
+        "content": "'The Shadow of the Wind' follows Daniel Sempere, who discovers a forgotten book in the mysterious Cemetery of Forgotten Books. As he investigates the author, he uncovers a web of secrets, intrigue, and danger spanning decades in post-war Barcelona. Zafón explores themes of memory, obsession, love, betrayal, and the power of literature to shape lives. The narrative blends gothic atmosphere, suspense, and richly drawn characters, emphasizing the transformative and haunting influence of stories and the enduring quest for truth, connection, and identity."
+    },
+    {
+        "id": 41,
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "publication_year": 1911,
+        "genre": ["Children's Literature", "Classic"],
+        "description": "A classic children's novel about a young girl who discovers a hidden garden.",
+        "cover_image": "https://fakeimg.pl/667x1000/408A0B/?text=The%20Secret%20Garden",
+        "content": "'The Secret Garden' follows Mary Lennox, a spoiled and lonely child, who discovers a neglected garden on her uncle’s estate. Through tending the garden, Mary, along with her cousin Colin and friend Dickon, experiences personal growth, healing, and the transformative power of nature. Burnett explores themes of friendship, rejuvenation, resilience, and the restorative effects of care and love. The novel celebrates the connection between humans and nature, the importance of nurturing relationships, and the potential for renewal and happiness when curiosity, empathy, and determination are embraced."
+    },
+    {
+        "id": 42,
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "publication_year": 1993,
+        "genre": ["Dystopian", "Young Adult"],
+        "description": "A dystopian novel about a society with strict control over emotions and memories.",
+        "cover_image": "https://fakeimg.pl/667x1000/88EE24/?text=The%20Giver",
+        "content": "'The Giver' follows Jonas, a boy living in a seemingly perfect, highly controlled society where emotions, memories, and individuality are suppressed. Chosen to be the Receiver of Memories, Jonas learns about the richness of human experience, the depth of emotions, and the burdens of knowledge. Lowry explores themes of conformity, freedom, ethical responsibility, and the necessity of memory and feeling for authentic life. Through Jonas’s journey, the novel reflects on the costs of control, the value of individuality, and the power of choice, offering a cautionary yet hopeful exploration of society, morality, and human potential."
+    },
+    {
+        "id": 43,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "publication_year": 1915,
+        "genre": ["Absurdist Fiction", "Existential"],
+        "description": "A novella about a man who wakes up one morning transformed into a giant insect.",
+        "cover_image": "https://fakeimg.pl/667x1000/4A7525/?text=The%20Metamorphosis",
+        "content": "'The Metamorphosis' follows Gregor Samsa, who wakes up to find himself transformed into a giant insect, forcing his family and himself to confront alienation, identity, and social obligations. Kafka explores themes of absurdity, existential despair, isolation, and the fragility of human dignity. The novella examines the impact of societal expectations and family dependence on the individual, reflecting the tension between personal freedom and responsibility. Through surreal and disturbing imagery, Kafka critiques dehumanization, conformity, and the alienating effects of modern life, creating a powerful existential narrative that resonates with psychological and philosophical depth."
+    },
+    {
+        "id": 44,
+        "title": "Gone with the Wind",
+        "author": "Margaret Mitchell",
+        "publication_year": 1936,
+        "genre": ["Historical Fiction", "Romance"],
+        "description": "A historical novel set during the American Civil War, centered around Scarlett O'Hara.",
+        "cover_image": "https://fakeimg.pl/667x1000/8C13F7/?text=Gone%20with%20the%20Wind",
+        "content": "'Gone with the Wind' chronicles the life of Scarlett O’Hara, a headstrong Southern woman, before, during, and after the American Civil War. Scarlett navigates love, survival, social upheaval, and the transformation of Southern society. Mitchell explores themes of resilience, desire, ambition, social change, and the human cost of war. The novel depicts personal and societal struggles, highlighting Scarlett’s resourcefulness and flawed humanity, as well as the cultural and historical context of the South. Through epic storytelling, rich characterization, and vivid historical detail, it portrays both individual determination and the sweeping impact of historical events."
+    },
+    {
+        "id": 45,
+        "title": "The Wind in the Willows",
+        "author": "Kenneth Grahame",
+        "publication_year": 1908,
+        "genre": ["Children's Literature", "Fantasy"],
+        "description": "A children's novel about the adventures of anthropomorphic animals.",
+        "cover_image": "https://fakeimg.pl/667x1000/EF4CCF/?text=The%20Wind%20in%20the%20Willows",
+        "content": "'The Wind in the Willows' follows the whimsical adventures of anthropomorphic animals including Mole, Rat, Badger, and Toad. Grahame explores friendship, loyalty, courage, and the joys of home and nature. Through playful storytelling, episodic adventures, and rich descriptions of the natural world, the novel emphasizes the value of companionship, personal growth, and ethical behavior. Themes of responsibility, curiosity, and balance between adventure and domesticity are woven into a charming narrative that entertains while offering moral and philosophical reflection. The story celebrates imagination, camaraderie, and the enduring appeal of the English countryside."
+    },
+    {
+        "id": 46,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "publication_year": 1897,
+        "genre": ["Gothic", "Horror"],
+        "description": "A Gothic horror novel about the vampire Count Dracula's attempt to move to England.",
+        "cover_image": "https://fakeimg.pl/667x1000/1B4C7A/?text=Dracula",
+        "content": "'Dracula' tells the story of Count Dracula, a centuries-old vampire who seeks to expand his dominion by moving from Transylvania to England. Through letters, diaries, and journal entries, Stoker explores the perspectives of Jonathan Harker, Mina Harker, and Dr. Van Helsing as they confront Dracula's supernatural powers. The novel delves into themes of fear, sexuality, immortality, superstition, and the struggle between good and evil. Gothic atmosphere, suspenseful plotting, and the clash of modern science with ancient superstition create a tense narrative. Stoker’s work examines the fragility of human courage, the nature of evil, and the moral and psychological costs of confronting darkness both literal and symbolic."
+    },
+    {
+        "id": 47,
+        "title": "The Call of the Wild",
+        "author": "Jack London",
+        "publication_year": 1903,
+        "genre": ["Adventure", "Nature"],
+        "description": "An adventure novel about a domestic dog's life in the wilds of the Yukon.",
+        "cover_image": "https://fakeimg.pl/667x1000/D610A1/?text=The%20Call%20of%20the%20Wild",
+        "content": "'The Call of the Wild' follows Buck, a large domestic dog, who is stolen from his comfortable home and thrust into the harsh conditions of the Yukon during the Gold Rush. London chronicles Buck’s transformation from a pampered pet to a fierce, instinct-driven leader of a wolf pack. Themes of survival, adaptation, instinct versus civilization, and the call of nature are central to the narrative. Through vivid depictions of wilderness, animal behavior, and human interaction, London explores resilience, courage, and the primal instincts that define life in a brutal environment. The novel is both an adventure story and a reflection on the tension between domestication and the natural world."
+    },
+    {
+        "id": 48,
+        "title": "The Stand",
+        "author": "Stephen King",
+        "publication_year": 1978,
+        "genre": ["Horror", "Post-Apocalyptic"],
+        "description": "A post-apocalyptic horror novel about a deadly pandemic and its aftermath.",
+        "cover_image": "https://fakeimg.pl/667x1000/FA2C7E/?text=The%20Stand",
+        "content": "'The Stand' depicts a world devastated by a superflu pandemic that wipes out most of humanity. The story follows survivors who are drawn into opposing forces of good, led by Mother Abagail, and evil, led by Randall Flagg. King explores themes of morality, leadership, human resilience, and the eternal struggle between good and evil. The novel combines horror, social commentary, and epic storytelling, emphasizing human relationships, ethical choices, and the rebuilding of society after catastrophe. Characters must confront fear, temptation, and loss while seeking hope, redemption, and the preservation of human values in a fractured world."
+    },
+    {
+        "id": 49,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "publication_year": 1982,
+        "genre": ["Fiction", "Historical"],
+        "description": "A novel about the life of African-American women in the Southern United States.",
+        "cover_image": "https://fakeimg.pl/667x1000/D07A0A/?text=The%20Color%20Purple",
+        "content": "'The Color Purple' follows the life of Celie, an African-American woman in the early 20th-century American South, as she faces abuse, oppression, and systemic racism. Told through letters, the novel explores themes of resilience, self-discovery, empowerment, sisterhood, and the transformative power of love and friendship. Walker highlights the struggles of marginalized women while celebrating the courage, resourcefulness, and inner strength required to claim identity and independence. The narrative blends historical realism with deep emotional insight, examining the intersections of race, gender, and social hierarchy, and offering a powerful testament to the human spirit and the potential for personal growth and redemption."
+    },
+    {
+        "id": 50,
+        "title": "The Silmarillion",
+        "author": "J.R.R. Tolkien",
+        "publication_year": 1977,
+        "genre": ["Fantasy", "Mythopoeia"],
+        "description": "A collection of mythopoeic stories about the history of Middle-earth.",
+        "cover_image": "https://fakeimg.pl/667x1000/EF37CE/?text=The%20Silmarillion",
+        "content": "'The Silmarillion' is a compendium of mythic tales detailing the creation, history, and legendary events of Middle-earth. Tolkien chronicles the rise and fall of great civilizations, the struggles of immortal and mortal beings, and the cosmic battles between good and evil. Central stories include the creation of the world, the rebellion of the dark Vala Morgoth, and the quests for the Silmarils. Themes of heroism, fate, pride, sacrifice, and the corrupting influence of power are woven throughout. The text offers a rich tapestry of lore, culture, and moral reflection, providing deep context for Tolkien’s later works, including 'The Hobbit' and 'The Lord of the Rings,' and showcasing his imaginative and philosophical exploration of myth and history."
+    }
+]

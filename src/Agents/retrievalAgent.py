@@ -25,5 +25,5 @@ retrieval_agent = Agent(
         Example: If given query="what is X" and collection_name="yizumi-electrical-docs",
         call: qdrant_search_tool(query="what is X", collection_name="yizumi-electrical-docs")""",
     tools=[qdrant_search_tool, list_qdrant_collections, web_search_tool],
-    debug_mode=True
+    debug_mode=False
 )

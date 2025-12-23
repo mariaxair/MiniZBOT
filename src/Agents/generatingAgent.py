@@ -15,5 +15,5 @@ generating_agent = Agent(
     name="GeneratingAgent",
     description="An agent that generates information from Qdrant or web search based on user queries.",
     tools=[qdrant_search_tool, web_search_tool],
-    debug_mode=True
+    debug_mode=False
 )

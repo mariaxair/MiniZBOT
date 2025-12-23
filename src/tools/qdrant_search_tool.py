@@ -65,7 +65,7 @@ def qdrant_search_tool(query: str, collection_name: str) -> list:
 
     #create embedding for the query
     embedding_response = openai_client.embeddings.create(
-        model = "text-embedding-3-small",
+        model = "text-embedding-3-large",
         input = query
     )
     embedded_query = embedding_response.data[0].embedding
