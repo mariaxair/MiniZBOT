@@ -19,24 +19,23 @@ Mini-ZBot is a multi-agent AI system designed to orchestrate complex queries thr
 
 The system uses a collaborative workflow where agents communicate to resolve user requests:
 
-1.  **RouterAgent**: Determines the genre collection of the query and returns the collection name.
+1.  **RouterAgent**: Lists the available collections and determines the genre collection of the query and returns the collection name.
 2.  **RetrievalAgent**: Fetches relevant data based on the domain.
 3.  **GeneratingAgent**: Synthesizes the final response using the retrieved data.
 
 ### 1. RouterAgent
 
-- **Role**: The dispatcher. It analyzes the user's question and the provided list of collections to decide which knowledge base (Qdrant collection) to query.
-- **Tools**: None (Receives available collections via prompt context).
+- **Role**: The dispatcher. It autonomously lists available collections and analyzes the user's question to decide which knowledge base (Qdrant collection) to query.
+- **Tools**: `list_qdrant_collections`.
 - **Output**: The name of the relevant Qdrant collection.
 
 ### 2. RetrievalAgent
 
-- **Role**: The researcher. It retrieves semantic context from the vector database, lists available collections, or performs web searches if necessary.
+- **Role**: The researcher. It retrieves semantic context from the vector database or performs web searches if necessary.
 - **Tools**:
   - `qdrant_search_tool`: For searching internal documentation.
-  - `list_qdrant_collections`: For retrieving available knowledge base collections.
   - `web_search_tool`: Fallback for external information.
-- **Output**: A list of relevant document snippets, search results, or collection names.
+- **Output**: A list of relevant document snippets or search results.
 
 ### 3. GeneratingAgent
 
