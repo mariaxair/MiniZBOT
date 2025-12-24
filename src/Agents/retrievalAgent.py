@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from tools.web_search_tool import web_search_tool
-from tools.qdrant_search_tool import qdrant_search_tool, list_qdrant_collections
+from tools.qdrant_search_tool import qdrant_search_tool
 
 load_dotenv()  # Load environment variables from .env file
 
