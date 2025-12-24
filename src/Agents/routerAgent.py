@@ -4,7 +4,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from tools.qdrant_search_tool import list_qdrant_collections
 
 load_dotenv()  # Load environment variables from .env file
 
@@ -18,7 +17,7 @@ CONTEXT: You work with a database of books organized into collections by genre. 
 
 AVAILABLE COLLECTIONS:
 - Each collection represents a different genre (fiction, mystery, science_fiction, romance, etc.)
-- Use list_qdrant_collections to see all available genre collections
+- The available collections will be provided with the user's question
 
 YOUR TASK:
 1. Analyze the user's question to understand what type of books they're interested in
@@ -35,7 +34,8 @@ EXAMPLES:
 CRITICAL: Return ONLY the collection name, nothing else.
 """,
 
-    tools=[list_qdrant_collections],
+    tools=[],
+    add_history_to_context=False,
     debug_mode=True,
     markdown = False
 )

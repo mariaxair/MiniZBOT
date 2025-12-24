@@ -11,7 +11,12 @@ class Orchestrator:
     def run(self, user_question: str) -> str:
         # 0️⃣ Routing - Determine which collection to use
         print("\n🧭 Determining best collection...")
-        routing_response = self.router_agent.run(f"Which collection should I search for this question: {user_question}")
+        
+        # Fetch available collections from retrieval agent
+        collections_response = self.retrieval_agent.run("List all available book collections.")
+        available_collections = collections_response.content
+        
+        routing_response = self.router_agent.run(f"Which collection should I search for this question: {user_question}\nAvailable Collections: {available_collections}")
         collection_name = routing_response.content.strip()
         print(f"✅ Router selected collection: {collection_name}")
         
