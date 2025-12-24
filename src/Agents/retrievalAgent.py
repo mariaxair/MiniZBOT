@@ -33,5 +33,5 @@ IMPORTANT:
 """,
     tools=[qdrant_search_tool, list_qdrant_collections, web_search_tool],
     # add_history_to_context=False,
-    debug_mode=True
+    debug_mode=False
 )

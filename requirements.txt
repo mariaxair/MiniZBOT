@@ -1,0 +1,5 @@
+agno
+python-dotenv
+openai
+qdrant-client
+requests

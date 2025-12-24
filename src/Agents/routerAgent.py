@@ -35,7 +35,7 @@ CRITICAL: Return ONLY the collection name, nothing else.
 """,
 
     tools=[],
-    add_history_to_context=False,
-    debug_mode=True,
+    # add_history_to_context=False,
+    debug_mode=False,
     markdown = False
 )

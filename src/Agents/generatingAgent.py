@@ -4,7 +4,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 import sys,os
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from tools.web_search_tool import web_search_tool
 
 load_dotenv()  # Load environment variables from .env file
 
@@ -23,13 +22,13 @@ YOUR ROLE:
 - Help users find their next great read
 
 GUIDELINES:
-- Always base your answers on the provided context or web_search_tool
+- Always base your answers on the provided context
 - Be enthusiastic about books and reading
 - If the context doesn't contain relevant information, politely say so and offer to help with something else
 - Keep responses concise but informative
 
 TONE: Friendly, knowledgeable, and passionate about books.
 """,
-    tools=[web_search_tool],
-    debug_mode=True
+    tools=[],
+    debug_mode=False
 )
