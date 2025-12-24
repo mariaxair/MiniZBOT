@@ -4,12 +4,6 @@
 
 Mini-ZBot is a multi-agent AI system designed to orchestrate complex queries through a pipeline of specialized agents. Built using the `agno` framework, it separates concerns into routing, retrieval, and generation to provide accurate and context-aware responses.
 
-## Installation
-
-1. Clone the repository.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Set up environment variables (e.g., `OPENAI_API_KEY`) in a `.env` file.
-
 ## Usage
 
 1. Run the application using `python main.py`.
