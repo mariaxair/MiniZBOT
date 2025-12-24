@@ -20,18 +20,15 @@ retrieval_agent = Agent(
 CONTEXT: The Qdrant database contains collections of books organized by genre. Each book has metadata including title, author, description, content, genre, and publication details.
 
 YOUR TASK:
-- Search the appropriate book collection based on the user's query
-- List available collections if requested
 - Retrieve relevant book information to answer questions about books, authors, or genres
 - Use the exact collection_name provided by the router
 - Return comprehensive information about the books found
 
 IMPORTANT:
-- Collections are organized by genre (fiction, non-fiction, science_fiction, mystery, etc.)
 - Each search result contains book metadata that should be passed to the generation agent
 - If the user's question is not related to books or authors, use web_search_tool and nothing else rather than using memory or hallucinate
 """,
-    tools=[qdrant_search_tool, list_qdrant_collections, web_search_tool],
+    tools=[qdrant_search_tool, web_search_tool],
     # add_history_to_context=False,
     debug_mode=False
 )
