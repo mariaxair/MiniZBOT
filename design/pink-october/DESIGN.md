@@ -64,3 +64,19 @@ Static by default. For an animated variant: a sheen band translating along the r
 - Emojis, stock-photo hands holding ribbons, generic "hope" clip-art (doves, hearts)
 - AI copy clichés ("Empower", "Elevate", "Unleash")
 - Changing the ZAD logo, its color, or the Inter identity lines
+
+---
+
+## Variant B: Minimal Editorial (`pink-october-minimal.html`)
+A quiet, editorial poster on warm paper. Built on negative space, one pastel shape and type contrast. There are no gradients, shadows or glass effects.
+
+- **Palette:** Warm Bone canvas (#F7F5F2), Pale Pink disc (#FBE6EA), Rule Grey 1px lines (#E4DFD8), Off-Black ink (#1E2422), Muted meta (#7A7672). Accents are only ZAD Deep Green (#044132) and ZAD Signal Pink (#E2468A).
+- **Type:**
+  - Instrument Serif, 268px, line-height 0.86, tracking −0.035em: "Pink" in italic Signal Pink, "October" in roman Off-Black.
+  - Tagline: Instrument Serif Italic, 50px.
+  - Meta labels: Geist Mono, 18–20px, uppercase, +0.08em tracking.
+  - Identity lines: Inter, unchanged and locked.
+- **Grid:** 72px outer margins on every side. A header row (logo left, date right), then a 1px rule. The title sits left-aligned. Below it, the tagline is on the left and the ribbon on the right. A 1px rule sits above the left-aligned identity lines.
+- **Ribbon:** one flat Signal Pink shape. The crossing is shown by a 16u knockout gap in the disc color, not by shading. The tails break out below the disc edge.
+- **Texture:** only a 5% monochrome grain. Nothing else adds depth.
+- **Banned in this variant:** gradients, drop shadows, glass cards, glows, more than one pastel shape, centered layouts.

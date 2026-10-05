@@ -221,14 +221,14 @@ h1 .l2{transform:translateX(64px)}
 """
 
 html = (
-    TEMPLATE.replace("SATIN_FULL", satin("sFull"))
+    TEMPLATE.replace("LOGO", LOGO_PATH)
+    .replace("SATIN_FULL", satin("sFull"))
     .replace("SATIN_FRONT", satin("sFront"))
     .replace("STRAND_FULL", STRAND_FULL)
     .replace("STRAND_FRONT", STRAND_FRONT)
     .replace('stroke-width="W"', f'stroke-width="{W}"')
     .replace("FRAUNCES", font_b64("Fraunces-Italic-latin.woff2"))
     .replace("INTER", font_b64("Inter-latin.woff2"))
-    .replace("LOGO", LOGO_PATH)
 )
 (HERE / "pink-october.html").write_text(html)
 print("wrote pink-october.html", len(html) // 1024, "KB")
