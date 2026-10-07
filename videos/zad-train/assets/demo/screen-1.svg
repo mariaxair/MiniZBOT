@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
-  <rect width="1600" height="1000" fill="#ffffff"/>
-  <rect x="0" y="0" width="1600" height="64" fill="#eef1f5"/>
-  <rect x="0" y="64" width="300" height="936" fill="#f6f7f9"/>
-  <g fill="#e3e7ee"><rect x="40" y="120" width="200" height="22" rx="6"/><rect x="40" y="170" width="160" height="22" rx="6"/><rect x="40" y="220" width="180" height="22" rx="6"/><rect x="380" y="600" width="1140" height="24" rx="6"/><rect x="380" y="650" width="980" height="24" rx="6"/><rect x="380" y="700" width="1060" height="24" rx="6"/></g>
-  <rect x="380" y="120" width="1140" height="420" rx="16" fill="none" stroke="#c9d1dd" stroke-width="3" stroke-dasharray="14 10"/>
-  <text x="950" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#5b6778">SCREENSHOT 1 — PLACEHOLDER</text>
-  <text x="950" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#7a8596">Machine manual → Learning module</text>
-</svg>

@@ -6,11 +6,13 @@ structure, transitions and backgrounds are not changed. Times below come from th
 
 ## Visual system
 
-- Inter 400/700, navy ink `#0E1A2B`, one accent `#2459E8`.
+- Inter 400/700, navy ink `#0E1A2B`, ZAD green accent `#17603E` (kickers, icons) and the
+  brand green `#0F2F1E` (from the logo) for filled pills, checks and the demo background.
 - White panels (radius 22, soft shadow), anchored bottom inside the 80% title-safe box, so the
   speaker's face stays clear.
 - Motion: soft fade + 12–24 px slide, 0.4–0.5 s, `power2.out`. No bounce, no kinetic type.
-- ZAD AI logo: top centre, 44 px high, the whole video (`compositions/logo.html`).
+- ZAD logo: white wordmark, top centre, 34 px high, the whole video (`compositions/logo.html`,
+  `assets/zad-logo-white.png`, cut from the supplied logo).
 
 ## Timeline
 
@@ -32,20 +34,21 @@ internal procedures) so each item lands on the word.
 
 ## Demo section (28.3 – 40.3 s)
 
-| Step | Narration                                                        | Screen          | Window      |
-| ---- | ---------------------------------------------------------------- | --------------- | ----------- |
-| 1    | "A machine manual can become a learning module."                 | `screen-1`      | 0 – 2.7 s   |
-| 2    | "A maintenance procedure can become a step-by-step training."    | `screen-2`      | 2.7 – 6.3 s |
-| 3    | "An internal process can become structured content for onboarding or skills development." | `screen-3` | 6.3 – 12 s |
+Speaker hidden. `assets/demo/demo.mp4` (12 s, 1600×1000, muted) is cut from the supplied ZAD Train
+recordings by `build-demo.sh`, cropped to the clean UI so the recordings' own marketing captions
+never show. Crossfades land on the sentence boundaries.
 
-## Assets still to come
+| Step | Narration                                                        | Recording → shots                                                       | Window      |
+| ---- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------- |
+| 1    | "A machine manual can become a learning module."                 | `Untitled_design`: PDF manual uploaded → generated course modules       | 0 – 2.7 s   |
+| 2    | "A maintenance procedure can become a step-by-step training."    | `download_6`: feedback on the Hydraulic System Health slide → visual guide | 2.7 – 6.3 s |
+| 3    | "An internal process can become structured content for onboarding or skills development." | `download_4`: course library → beginner-operator course setup | 6.3 – 12 s |
 
-- `assets/zad-ai-logo.svg` — **placeholder**. Replace with the ZAD AI logo (light version for
-  the grey wall; SVG or a transparent PNG).
-- `assets/demo/screen-1.svg`, `screen-2.svg`, `screen-3.svg` — **placeholders**. Replace with
-  the ZAD Train screenshots, then set each step's push-in focus on the key UI element.
+`Untitled_design_1` and `download_5` match `Untitled_design` and `download_4` visually and are not used.
 
 ## Rebuilding
+
+Demo clip: `./build-demo.sh <Untitled_design.mp4> <download_6.mp4> <download_4.mp4>`.
 
 `assets/source.mp4` is the source edit re-encoded with a keyframe every 30 frames (not
 committed; large media is gitignored):
