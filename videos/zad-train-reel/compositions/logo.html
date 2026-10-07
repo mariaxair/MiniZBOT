@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <style>
+        #root {
+          position: absolute;
+          inset: 0;
+        }
+        #logo-wrap {
+          position: absolute;
+          top: 210px;
+          left: 0;
+          right: 0;
+          display: flex;
+          justify-content: center;
+        }
+        #logo-img {
+          display: block;
+          height: 34px;
+          width: auto;
+          opacity: 0.92;
+        }
+      </style>
+
+      <div id="root" data-composition-id="logo" data-width="1080" data-height="1920">
+        <div id="logo-wrap">
+          <!-- ZAD wordmark, white on transparent (cut from the supplied logo). -->
+          <img id="logo-img" src="assets/zad-logo-white.png" alt="ZAD" />
+        </div>
+      </div>
+
+      <script>
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#logo-wrap", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power1.out" }, 0.2);
+        window.__timelines["logo"] = tl;
+      </script>
+    </template>
+  </body>
+</html>
