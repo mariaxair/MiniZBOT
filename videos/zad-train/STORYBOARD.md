@@ -1,8 +1,19 @@
 # ZAD Train — final edit (overlay pass)
 
-Source: the assembled 1080×1080 edit (58.7 s). It plays untouched underneath everything:
+Source: the assembled edit (58.7 s). The file is stored as 1080×1080 pixels flagged 9:16
+(anamorphic), so its true format is vertical 1080×1920; `assets/source.mp4` is re-encoded to
+1080×1920 with square pixels. It plays untouched underneath everything:
 structure, transitions and backgrounds are not changed. Times below come from the word-level
 `transcript.json`.
+
+## 2026-10-07 — Round 4: true 9:16 format
+
+The source is anamorphic (1080×1080 stored, displayed 9:16). Earlier rounds treated it as square,
+which stretched the picture horizontally. The project is now 1080×1920 with the full original
+frame in correct proportions, keeping every round-3 change. Positions: logo y=150 (40 px high);
+top panels (challenge, transforms, closing) y=280; bottom panels (adapted, features) 340 px
+above the bottom edge; demo window 912×570 at y=640. The separate cropped reel project was
+removed (it cropped the stretched square picture).
 
 ## 2026-10-07 — Round 3 notes (square format kept)
 
@@ -68,6 +79,6 @@ Demo clip: `./build-demo.sh <Untitled_design.mp4> <download_6.mp4> <download_4.m
 committed; large media is gitignored):
 
 ```bash
-ffmpeg -y -i <source>.mp4 -c:v libx264 -crf 18 -g 30 -keyint_min 30 -pix_fmt yuv420p \
+ffmpeg -y -i <source>.mp4 -vf "scale=1080:1920,setsar=1" -c:v libx264 -crf 18 -g 30 -keyint_min 30 -pix_fmt yuv420p \
   -movflags +faststart -c:a aac -b:a 192k assets/source.mp4
 ```
