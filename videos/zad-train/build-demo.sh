@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rebuild assets/demo/demo.mp4 (12 s, 1600x1000) from the ZAD Train screen recordings.
+# Rebuild assets/demo/demo.mp4 (12.5 s, 1600x1000) from the ZAD Train screen recordings.
 # Usage: ./build-demo.sh <untitled_design.mp4> <download_6.mp4> <download_4.mp4>
 # Cuts follow the three demo sentences; crossfades land on the step boundaries (2.7 s, 6.3 s).
 set -euo pipefail
@@ -18,11 +18,11 @@ ffmpeg -loglevel error -y \
 [2:v]crop=1728:1080:0:0,$S,tpad=stop_mode=clone:stop_duration=0.1,trim=duration=2.1,setpts=PTS-STARTPTS[c];\
 [3:v]crop=1600:1000:160:25,$S,tpad=stop_mode=clone:stop_duration=0.65,trim=duration=2.1,setpts=PTS-STARTPTS[d];\
 [4:v]crop=1440:900:480:180,$S,tpad=stop_mode=clone:stop_duration=0.25,trim=duration=1.9,setpts=PTS-STARTPTS[e];\
-[5:v]crop=1728:1080:150:0,$S,tpad=stop_mode=clone:stop_duration=0.65,trim=duration=4.25,setpts=PTS-STARTPTS[f];\
+[5:v]crop=1728:1080:150:0,$S,tpad=stop_mode=clone:stop_duration=1.15,trim=duration=4.75,setpts=PTS-STARTPTS[f];\
 [a][b]xfade=transition=fade:duration=0.3:offset=0.95[ab];\
 [ab][c]xfade=transition=fade:duration=0.3:offset=2.55[abc];\
 [abc][d]xfade=transition=fade:duration=0.3:offset=4.35[abcd];\
 [abcd][e]xfade=transition=fade:duration=0.3:offset=6.15[abcde];\
-[abcde][f]xfade=transition=fade:duration=0.3:offset=7.75,trim=duration=12,setpts=PTS-STARTPTS[v]" \
+[abcde][f]xfade=transition=fade:duration=0.3:offset=7.75,trim=duration=12.5,setpts=PTS-STARTPTS[v]" \
   -map "[v]" -an -c:v libx264 -crf 17 -g 30 -keyint_min 30 -pix_fmt yuv420p -movflags +faststart \
   "$(dirname "$0")/assets/demo/demo.mp4"

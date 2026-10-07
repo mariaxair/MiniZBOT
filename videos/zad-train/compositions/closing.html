@@ -27,8 +27,8 @@
           position: absolute;
           left: 108px;
           right: 108px;
-          bottom: 108px;
-          padding: 26px 32px 28px;
+          top: 112px;
+          padding: 20px 30px 22px;
           border-radius: 22px;
           background: rgba(255, 255, 255, 0.95);
           box-shadow: 0 18px 50px rgba(10, 20, 40, 0.22);
@@ -44,17 +44,17 @@
         .closing-line {
           display: flex;
           align-items: center;
-          gap: 16px;
-          margin-top: 14px;
-          font-size: 32px;
+          gap: 14px;
+          margin-top: 10px;
+          font-size: 30px;
           font-weight: 700;
           letter-spacing: -0.01em;
         }
         .closing-check {
-          flex: 0 0 36px;
-          width: 36px;
-          height: 36px;
-          border-radius: 18px;
+          flex: 0 0 34px;
+          width: 34px;
+          height: 34px;
+          border-radius: 17px;
           background: #0f2f1e;
           color: #ffffff;
           display: flex;
@@ -92,12 +92,14 @@
       </div>
 
       <script>
-        // Lines land on "turn knowledge" (54.5s), "transfer skills" (56.09s), "build expertise" (57.28s).
-        // Host starts at 54.2s and holds to the end of the video.
+        // Each line appears on a hand gesture (host starts at 54.2s and holds to the end):
+        // pointing sweep 54.8s, hand back to the chin 56.1s, finger raised 57.2s.
+        // The lines themselves have no fade or movement; they simply appear.
         const tl = gsap.timeline({ paused: true });
-        tl.fromTo("#closing-panel", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 0);
-        [0.25, 1.85, 3.05].forEach((t, i) => {
-          tl.fromTo(`#closing-line-${i + 1}`, { opacity: 0, x: -12 }, { opacity: 1, x: 0, duration: 0.45, ease: "power2.out" }, t);
+        tl.fromTo("#closing-panel", { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, 0.2);
+        [0.6, 1.9, 3.0].forEach((t, i) => {
+          tl.set(`#closing-line-${i + 1}`, { opacity: 0 }, 0);
+          tl.set(`#closing-line-${i + 1}`, { opacity: 1 }, t);
         });
         window.__timelines["closing"] = tl;
       </script>

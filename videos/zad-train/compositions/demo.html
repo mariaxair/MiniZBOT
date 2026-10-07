@@ -30,37 +30,12 @@
           background: radial-gradient(110% 80% at 50% 105%, #1c4a33 0%, #0f2f1e 55%, #0a2216 100%);
           color: #ffffff;
         }
-        .demo-head {
-          position: absolute;
-          left: 108px;
-          right: 108px;
-          top: 150px;
-        }
-        .demo-source {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          font-size: 24px;
-          font-weight: 400;
-          color: #cfe0d6;
-        }
-        .demo-source svg {
-          width: 22px;
-          height: 22px;
-          color: #8fd3ad;
-        }
-        .demo-title {
-          margin-top: 6px;
-          font-size: 44px;
-          font-weight: 700;
-          letter-spacing: -0.015em;
-        }
         #demo-frame {
           position: absolute;
-          left: 108px;
-          top: 296px;
-          width: 864px;
-          height: 540px;
+          left: 84px;
+          top: 250px;
+          width: 912px;
+          height: 570px;
           border-radius: 18px;
           overflow: hidden;
           background: #ffffff;
@@ -80,7 +55,7 @@
           position: absolute;
           left: 0;
           right: 0;
-          top: 872px;
+          top: 862px;
           display: flex;
           justify-content: center;
           gap: 10px;
@@ -102,33 +77,11 @@
 
       <div id="root" data-composition-id="demo" data-width="1080" data-height="1080">
         <div id="demo-stage">
-          <!-- Narration-matched headers (one per sentence). -->
-          <div class="demo-head" id="demo-head-1">
-            <div class="demo-source">
-              <span>A machine manual</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </div>
-            <div class="demo-title">A learning module</div>
-          </div>
-          <div class="demo-head" id="demo-head-2">
-            <div class="demo-source">
-              <span>A maintenance procedure</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </div>
-            <div class="demo-title">A step-by-step training</div>
-          </div>
-          <div class="demo-head" id="demo-head-3">
-            <div class="demo-source">
-              <span>An internal process</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-            </div>
-            <div class="demo-title">Onboarding &amp; skills development</div>
-          </div>
 
           <!-- Product recordings, cut to the narration (assets/demo/demo.mp4, see STORYBOARD.md). -->
           <div id="demo-frame">
             <div id="demo-zoom" data-layout-allow-overflow>
-              <video id="demo-video" src="assets/demo/demo.mp4" muted playsinline data-start="0" data-duration="12" data-track-index="0"></video>
+              <video id="demo-video" src="assets/demo/demo.mp4" muted playsinline data-start="0" data-duration="12.45" data-track-index="0"></video>
             </div>
           </div>
 
@@ -141,31 +94,28 @@
       </div>
 
       <script>
-        // Host starts at 28.3s. Step boundaries follow the three sentences:
-        // 28.43s "A machine manual…", 31.07s "A maintenance procedure…", 34.67s "An internal process…".
+        // Host starts at 28.3s and covers the speaker until the phone shot ends (40.47s).
+        // Step boundaries follow the three sentences: 28.43s "A machine manual…",
+        // 31.07s "A maintenance procedure…", 34.67s "An internal process…".
         // demo.mp4 crossfades between recordings at the same boundaries (2.7s, 6.3s).
         const steps = [
           { start: 0, end: 2.7 },
           { start: 2.7, end: 6.3 },
-          { start: 6.3, end: 12 },
+          { start: 6.3, end: 12.2 },
         ];
         const tl = gsap.timeline({ paused: true });
 
         tl.fromTo("#demo-stage", { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power1.out" }, 0);
         tl.fromTo("#demo-frame", { y: 18 }, { y: 0, duration: 0.6, ease: "power2.out" }, 0);
         // One slow, continuous push-in across the whole demo.
-        tl.fromTo("#demo-zoom", { scale: 1 }, { scale: 1.04, duration: 12, ease: "none" }, 0);
+        tl.fromTo("#demo-zoom", { scale: 1 }, { scale: 1.04, duration: 12.5, ease: "none" }, 0);
 
         steps.forEach((s, i) => {
-          const n = i + 1;
-          tl.fromTo(`#demo-head-${n}`, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, s.start + (i === 0 ? 0.15 : 0.1));
-          if (i < steps.length - 1) {
-            tl.to(`#demo-head-${n}`, { opacity: 0, y: -8, duration: 0.25, ease: "power1.in" }, s.end - 0.2);
-          }
-          tl.fromTo(`#demo-fill-${n}`, { scaleX: 0 }, { scaleX: 1, duration: s.end - s.start, ease: "none" }, s.start);
+          tl.fromTo(`#demo-fill-${i + 1}`, { scaleX: 0 }, { scaleX: 1, duration: s.end - s.start, ease: "none" }, s.start);
         });
 
-        tl.to("#demo-stage", { opacity: 0, duration: 0.4, ease: "power1.in" }, 11.6);
+        // Fully opaque until 40.5s (local 12.2), then fade out over the speaker's normal framing.
+        tl.to("#demo-stage", { opacity: 0, duration: 0.25, ease: "power1.in" }, 12.2);
         window.__timelines["demo"] = tl;
       </script>
     </template>

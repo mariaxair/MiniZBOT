@@ -4,6 +4,20 @@ Source: the assembled 1080×1080 edit (58.7 s). It plays untouched underneath ev
 structure, transitions and backgrounds are not changed. Times below come from the word-level
 `transcript.json`.
 
+## 2026-10-07 — Round 3 notes (square format kept)
+
+- **Challenge** and **ZAD Train transforms** panels moved to the top (y=112), above the
+  speaker's head; the transforms panel was compacted to ~210 px high to fit.
+- **Demo:** narration-repeating headings removed (read as a second voice-over), so the
+  product recordings play alone in a larger centred window (912×570). Audio analysis of the
+  source found a single voice in this section (no echo, no recording audio mixed in).
+- **Phone shot at ~40 s removed:** the demo now covers the speaker until the phone shot ends
+  (40.47 s) and fades out over the normal framing (host 28.3 s → 40.75 s; `demo.mp4` 12.5 s).
+- **Platform supports:** points appear with no fade or movement, on his hand gestures:
+  finger raised 48.6 s, hand flicks forward 50.0 s, hand drops 51.6 s.
+- **With ZAD Train:** panel moved to the top; lines appear with no motion on the gestures:
+  pointing sweep 54.8 s, hand to chin 56.1 s, finger raised 57.2 s.
+
 ## Visual system
 
 - Inter 400/700, navy ink `#0E1A2B`, ZAD green accent `#17603E` (kickers, icons) and the
